@@ -1,0 +1,32 @@
+@startuml Use Cases Overview
+left to right direction
+
+actor "Member" as member
+actor "Librarian" as librarian
+
+rectangle "Book Library" {
+    usecase "UC-001\nSearch catalog" as UC001
+    usecase "UC-002\nBorrow book" as UC002
+    usecase "UC-003\nReturn book" as UC003
+    usecase "UC-004\nView active loans" as UC004
+    usecase "UC-005\nManage catalog" as UC005
+    usecase "UC-006\nManage members" as UC006
+    usecase "UC-007\nView my loans" as UC007
+    usecase "UC-008\nView loan history" as UC008
+    usecase "UC-009\nSign in" as UC009
+}
+
+member --> UC009
+member --> UC001
+member --> UC002
+member --> UC003
+member --> UC007
+
+UC009 <-- librarian
+UC001 <-- librarian
+UC004 <-- librarian
+UC005 <-- librarian
+UC006 <-- librarian
+UC008 <-- librarian
+
+@enduml
