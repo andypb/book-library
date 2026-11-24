@@ -3,7 +3,7 @@
 ## Problem
 
 Small libraries (school libraries, club libraries, community libraries) often track book
-loans with paper lists or Excel files. This is slow, error prone, and makes it hard to see
+loans with paper lists or Excel files. This is slow, error-prone, and makes it hard to see
 who has which book. Members do not know which books are available without asking the
 librarian.
 
@@ -23,7 +23,7 @@ keeps a clear history of who borrowed what and when.
 ## Goals
 
 - Make borrowing and returning books quick.
-- Give members a self service way to find books.
+- Give members a self-service way to find books.
 - Give the librarian a real time view of all loans.
 - Keep the system small and easy to maintain.
 - Make sure every action is tied to a known user, and that librarian-only screens
@@ -33,6 +33,6 @@ keeps a clear history of who borrowed what and when.
 
 - No payment or fines handling.
 - No reservations or waiting lists.
-- No multi branch support.
-- No self service sign-up, password reset, or social login. The librarian creates
+- No multi-branch support.
+- No self-service sign-up, password reset, or social login. The librarian creates
   member accounts manually for this first version.
